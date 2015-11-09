@@ -34,6 +34,10 @@ PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_MODEL := SCH-R970X
 
+# Qualcomm
+PRODUCT_PACKAGES += \
+    libcnefeatureconfig
+
 # Stlport
 PRODUCT_PACKAGES += \
     libstlport
